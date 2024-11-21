@@ -19,6 +19,7 @@ ament_python_install_package(${PROJECT_NAME})
 # Install Python executables #They must start with the shebag tag
 install(PROGRAMS
   ${PROJECT_NAME}/tray_test.py
+  ${PROJECT_NAME}/multi_tray.py
   #src/tray_test.py
   DESTINATION lib/${PROJECT_NAME} 
 )
